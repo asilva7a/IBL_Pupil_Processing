@@ -1,0 +1,16 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Data and generated outputs
+data/raw/*
+data/interim/*
+data/processed/*
+output/figures/*
+output/logs/*
+output/models/*
+output/tables/*
+
+# Keep directory placeholders if added later
+!data/**/.gitkeep
+!output/**/.gitkeep

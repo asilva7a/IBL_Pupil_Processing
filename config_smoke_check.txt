@@ -1,0 +1,16 @@
+PROJECT_ROOT: /mnt/data/nma_pipeline_refactor
+TRIAL_TABLE_PATH: /mnt/data/nma_pipeline_refactor/data/processed/trial_table.parquet
+STATE_NAMES: {0: 'engaged', 1: 'biased-left', 2: 'biased-right'}
+Seeds: global=2026, RL=2026, transition=2026
+Configured directories exist:
+  /mnt/data/nma_pipeline_refactor/data/raw: True
+  /mnt/data/nma_pipeline_refactor/data/interim: True
+  /mnt/data/nma_pipeline_refactor/data/processed: True
+  /mnt/data/nma_pipeline_refactor/output/models: True
+  /mnt/data/nma_pipeline_refactor/output/tables: True
+  /mnt/data/nma_pipeline_refactor/output/figures: True
+  /mnt/data/nma_pipeline_refactor/output/logs: True
+  /mnt/data/nma_pipeline_refactor/archive: True
+  /mnt/data/nma_pipeline_refactor/output/models/glmhmm: True
+  /mnt/data/nma_pipeline_refactor/output/models/transitions: True
+  /mnt/data/nma_pipeline_refactor/data/interim/pupil_traces: True

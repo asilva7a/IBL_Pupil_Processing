@@ -1,0 +1,15 @@
+# Core numerical and modeling stack
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+matplotlib
+pyarrow
+
+# IBL data access and pupil helpers
+ONE-api
+ibllib
+
+# Development / validation
+pytest
