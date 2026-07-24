@@ -1,0 +1,4 @@
+subject,eid,trace_source,status,error,n_trials,excluded_subject,exclusion_reason,n_samples,raw_missing_fraction,cleaned_missing_fraction,artifact_fraction,trace_usable
+CSHL049,4b7fbad4-f6de-43b4-9b15-c7c7ef44db4b,one,success,,842,False,,311606,0.002336283640237993,0.032550721102931265,0.032550721102931265,True
+CSHL045,7939711b-8b4d-4251-b698-b97c1eaa846e,one,success,,1019,False,,405629,0.009306533803056488,0.03654817579610925,0.03654817579610925,True
+CSHL047,89f0d6ff-69f4-45bc-b89e-72868abb042a,one,success,,948,False,,31747,0.06337606702995559,0.014930544618389139,0.014930544618389139,True

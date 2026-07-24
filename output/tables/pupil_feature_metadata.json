@@ -1,0 +1,36 @@
+{
+  "stimulus_tonic": {
+    "event": "stimOn_times",
+    "window": [
+      -0.5,
+      0.0
+    ],
+    "column": "pupil_tonic"
+  },
+  "stimulus_phasic": {
+    "event": "stimOn_times",
+    "baseline_window": [
+      -0.5,
+      0.0
+    ],
+    "response_window": [
+      0.0,
+      1.0
+    ],
+    "column": "pupil_phasic"
+  },
+  "feedback_phasic": {
+    "event": "feedback_times",
+    "baseline_window": [
+      -0.5,
+      0.0
+    ],
+    "response_window": [
+      0.5,
+      2.5
+    ],
+    "column": "pupil_feedback_phasic"
+  },
+  "minimum_valid_fraction": 0.8,
+  "trace_cache_directory": "C:\\Users\\alext\\Documents\\2026_NMA\\nma_pipeline_refactor\\data\\interim\\pupil_traces"
+}
